@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fondo{
+    background-image: url(/img/wallpaper\ breaking\ bad.webp);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: auto;
+}
+
+.fondo img{
+    width: 600px;
+    height: 300px;
+    padding-left: 30%;
+    padding-top: 13px;
+    
+}
+/* SECCION DE CARDS */
+.texto-card{
+    font-size: 60px;
+    color: rgb(0, 155, 0);
+    text-shadow: 0 0 20px rgb(0, 0, 0);
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.contenedor-card2{
+    height: 350px;
+    width: 100%;
+    padding-top: 10px;
+    margin: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.308),rgba(249, 241, 241, 0.645)),url(img/Walter\ White\ Transcurso.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position-y: 30%;
+}
+.contenedor-card{
+    display: flex;
+    width: 100%;
+    height: 120px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    box-shadow: 0 0 3px;
+    width: 30%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 100px;
+    background-color: rgba(0, 108, 7, 0.671);
+    
+}
+
+.card:hover{
+    box-shadow: 0 0 20px rgb(0, 255, 55);
+    transform: scale(1.1);
+    transition: transform 1.5s;
+}
+
+.card i{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.card h3{
+    font-size: 25px;
+    padding: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.boton{
+    background-color: rgba(0, 0, 0, 0.797);
+    color: rgb(0, 255, 64);
+    padding: 10px 10px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    cursor: pointer;
+    display: inline-block;
+    width: 200px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.boton:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0.584);
+}
+/* FIN SECCION CARDS */
+
+/*  SECCION GALERIA */
+.contenedor{
+    height: 100px;
+    width: 90%;
+    margin: auto;
+}
+
+.galeria{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.855),rgba(0, 0, 0, 0.619)),url(img/breaking-bad-final.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 1100px;
+}
+
+.contenedor-galeria{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+    padding-top: 20px;
+}
+.contenedor-galeria img{
+    width: 30%;
+    height: 500px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.contenedor-galeria:hover img{
+    box-shadow: 0 0 20px rgb(245, 245, 246);
+    transform: scale(1.1);
+    transition: transform 1.5s;
+}
+/* FIN SECCION GALERIA */
+
+/* SECCION MENU */
+
+.menu{
+    list-style-type: none;
+    background-color: rgba(2, 123, 0, 0.491);
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+}
+
+.menu li{
+    float: left;
+    
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 100px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* fin Menu */
+
+.contenedor-foto{
+    background-image: url(img/breaking-bad-final.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.contacto{
+    display:grid;
+    padding-left: 550px;
+}
+
+.contacto li{
+    text-decoration: none;
+    display: flex;
+}
+
+.contacto h2 {
+    font-size: 36px;
+    color: rgb(0, 71, 6);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 20px rgb(0, 0, 0);
+
+}
+
+.formulario{
+    padding-left: 70px;
+}
+
+.formulario input {
+    font-size: 20px;
+    background-color: rgb(34, 34, 34); /* Negro */
+    color: rgb(252, 186, 3); /* Amarillo */
+    border: 2px solid rgb(252, 186, 3); /* Amarillo */
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.formulario textarea {
+    font-size: 20px;
+    background-color: rgb(34, 34, 34); /* Negro */
+    color: rgb(252, 186, 3); /* Amarillo */
+    border: 2px solid rgb(252, 186, 3); /* Amarillo */
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.formulario button {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255); /* Blanco */
+    background-color: rgb(0, 166, 80); /* Verde */
+    border-radius: 5px;
+    padding: 8px 20px;
+    display: inline-block; /* Muestra los botones en línea */
+    margin-right: 10px; /* Espacio entre botones */
+}
+
+.formulario ::placeholder {
+    color: rgb(140, 140, 140); /* Gris */
+    font-weight: bold;
+}
+
+
+.footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.855),rgba(255, 255, 255, 0.619)),url(img/breaking-bad-final.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    font-size: 10px;
+}
